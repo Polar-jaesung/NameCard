@@ -7,6 +7,7 @@
     
     --font-sizeLar:50px;
     --font-sizeMid:30px;
+    --font-sizeSmall:20px;
 }
 
 body{
@@ -17,6 +18,10 @@ i{
     color: var(--color-lightoragne);
     font-size: 35px; 
     margin-right: 10px;
+}
+
+p{
+  font-size: var(--font-sizeSmall);
 }
 
 h1{
@@ -30,7 +35,7 @@ h2{
     font-size: var(--font-sizeMid);
 }
 
-.navBar{
+#navBar{
   position: fixed;
   z-index: 1;
   width: 100%;
@@ -58,8 +63,7 @@ h2{
 /* Navbar */
 
 .d-flex {
-    /* background-color: bisque; */
-    font-size: 20px;
+  font-size: 20px;
     }
 
 .nav-link{
@@ -73,10 +77,28 @@ h2{
     
 }
 
-.nav-link:active{
+.nav-link.active{
     background-color: var(--color-orange);
     color: var(--color-bisque); 
-    border-bottom:0.25rem  solid #64a19d;
+    /* border-bottom:0.25rem  solid #64a19d; */
+}
+
+/*JEEPGO */
+
+
+
+.carousel-inner{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.carousel-control-prev{
+  color: yellow;
+}
+
+/* MION */
+.mion__title{
+  color:blue;
 }
 
 .btn-primary{
