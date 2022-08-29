@@ -59,6 +59,19 @@ h2{
     
 }
 
+.nav-link:active{
+    background-color: var(--color-orange);
+    color: var(--color-bisque); 
+    border-bottom:0.25rem  solid #64a19d;
+}
+
+.btn-primary{
+    background-color: var(--color-orange);
+    border:none;
+    width: 200px;
+    height: 40px;
+}
+
 .container,
 .container-fluid,
 .container-xxl,
