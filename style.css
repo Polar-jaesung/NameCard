@@ -9,6 +9,9 @@
     --font-sizeMid:30px;
 }
 
+body{
+  position: relative;
+}
 
 i{
     color: var(--color-lightoragne);
@@ -27,7 +30,18 @@ h2{
     font-size: var(--font-sizeMid);
 }
 
+.navBar{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin:0;
+  top:0px;
+  padding: 10px;
 
+}
 .master {
     position: relative;
     width: 100%;
@@ -86,6 +100,7 @@ margin-right: auto;
 margin-left: auto;
 }
 
+/* Contact List */
 .contact-section {
     padding-top: 5rem;
   }
