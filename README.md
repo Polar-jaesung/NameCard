@@ -1,2 +1,9 @@
-# NameCard
- To explain projects for public
+# 반응형 명함 제작
+
+지인의 사업 포트폴리오 홍보용 명함(?) 제작
+
+
+# :rocket:업데이트 주기
+
+
+CSS 및 JS를 활용하여 사진 및 가게 위치를 구글로 표시하고 있음.
